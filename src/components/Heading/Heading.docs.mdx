@@ -1,0 +1,39 @@
+import { Canvas, Story, ArgsTable } from '@storybook/addon-docs';
+
+# Heading 
+
+This component receives the styles of a title.
+
+### Default
+
+The title text renders with the `h2` tag and with the size of `24px`.
+
+<Canvas withToolbar>
+  <Story id="components-heading--default" />
+</Canvas>
+
+<ArgsTable story="^" />
+
+### Small
+
+The title text renders with the size of `20px`.
+
+<Canvas>
+  <Story id="components-heading--small" />
+</Canvas>
+
+### Large
+
+The title text renders with the size of `32px`.
+
+<Canvas>
+  <Story id="components-heading--large" />
+</Canvas>
+
+### Custom Component
+
+To use the `Slot` function, the `asChild` prop must be passed as `true` and the tag (to be rendered in place of the `h2` tag) must be passed along with its content (in the `children` prop).
+
+<Canvas>
+  <Story id="components-heading--custom-component" />
+</Canvas>

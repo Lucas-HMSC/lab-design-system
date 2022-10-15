@@ -1,0 +1,39 @@
+import { Canvas, Story, ArgsTable } from '@storybook/addon-docs';
+
+# Text 
+
+This component receives the text styles.
+
+### Default
+
+The text is rendered with the `span` tag and with the size of `16px`.
+
+<Canvas withToolbar>
+  <Story id="components-text--default" />
+</Canvas>
+
+<ArgsTable story="^" />
+
+### Small
+
+The text renders with the size of `14px`.
+
+<Canvas>
+  <Story id="components-text--small" />
+</Canvas>
+
+### Large
+
+The text renders with the size of `18px`.
+
+<Canvas>
+  <Story id="components-text--large" />
+</Canvas>
+
+### Custom Component
+
+To use the `Slot` function, the `asChild` prop must be passed as `true` and the tag (to be rendered in place of the `span` tag) must be passed along with its content (in the `children` prop).
+
+<Canvas>
+  <Story id="components-text--custom-component" />
+</Canvas>

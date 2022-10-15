@@ -1,0 +1,23 @@
+import { Canvas, Story, ArgsTable } from '@storybook/addon-docs';
+
+# Button 
+
+This component receives the styles of a button, but can be rendered as another tag (if necessary).
+
+### Default
+
+It renders with the `button` tag
+
+<Canvas withToolbar>
+  <Story id="components-button--default" />
+</Canvas>
+
+<ArgsTable story="^" />
+
+### Custom Component
+
+To use the `Slot` function, the `asChild` prop must be passed as `true` and the tag (to be rendered in place of the `button` tag) must be passed along with its content (in the `children` prop).
+
+<Canvas>
+  <Story id="components-button--custom-component" />
+</Canvas>

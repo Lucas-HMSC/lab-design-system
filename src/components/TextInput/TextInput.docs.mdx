@@ -1,0 +1,23 @@
+import { Canvas, Story, ArgsTable } from '@storybook/addon-docs';
+
+# TextInput
+
+This component receives the text input styles.
+
+### Default
+
+The input is rendered along with an icon (passed in by the `children` prop).
+
+<Canvas withToolbar>
+  <Story id="components-textinput--default" />
+</Canvas>
+
+<ArgsTable story="^" />
+
+### Without Icon
+
+It's not mandatory to pass the icon.
+
+<Canvas>
+  <Story id="components-textinput--without-icon" />
+</Canvas>
