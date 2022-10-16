@@ -10,6 +10,11 @@ initialize({
 export const decorators = [mswDecorator];
 
 export const parameters = {
+  options: {
+    storySort: {
+      order: ['Docs', 'Components', 'Pages'],
+    },
+  },
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {

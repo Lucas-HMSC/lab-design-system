@@ -2,7 +2,7 @@
 
 Projeto desenvolvido no Ignite Lab ReactJS - 3ª Edição.
 
-* O projeto desenvolvido nessa edição foi um Design System contendo 5 componentes desenvolvidos do zero, tendo sua concepção desde a criação do layout no Figma, organização dos tokens, criação e configuração do projeto, utilização dos componentes em um mini projeto de teste, e por fim realizando o deploy do mesmo utilizando as Actions do GitHub.
+* O projeto desenvolvido nessa edição foi um Design System contendo 5 componentes desenvolvidos do zero, tendo as seguintes etapas: criação do layout no Figma, organização dos tokens, criação e configuração do projeto, utilização dos componentes em um mini projeto de teste, e por fim realizando o deploy do mesmo utilizando as Actions do GitHub.
 * Tecnologias utilizadas: 
 
     ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
